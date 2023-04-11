@@ -59,7 +59,7 @@ namespace Uzduotis09
 
             Console.WriteLine("Iveskite viena pazymi:");
             int pazymys1 = Convert.ToInt32(Console.ReadLine()); //arba
-            //ivedimas = Console.ReadLine();
+            //string ivedimas = Console.ReadLine();
             //int pazymys1 = Convert.ToInt32(ivedimas);
             Console.WriteLine("Iveskite antra pazymi:");
             int pazymys2 = Convert.ToInt32(Console.ReadLine());
