@@ -56,7 +56,6 @@ namespace Uzduotis17
             Console.WriteLine("Iveskite antra skaiciu:");
             Console.ReadLine();
 
-            int i = 0;
             int sk1 = Convert.ToInt32(Console.ReadLine());
             int sk2 = Convert.ToInt32(Console.ReadLine());
             while (skaicius < 10)
