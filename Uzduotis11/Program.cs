@@ -59,11 +59,11 @@ namespace Uzduotis11
             {
                 Console.WriteLine("ziauriai salta");
             }
-            else if (temperatura < 10) 
+            else if (temperatura < 10)
             {
                 Console.WriteLine("labai salta");
             }
-            else if (temperatura < 20) 
+            else if (temperatura < 20)
             {
                 Console.WriteLine("salta");
             }
@@ -75,7 +75,7 @@ namespace Uzduotis11
             {
                 Console.WriteLine("karsta");
             }
-            else if (temperatura >= 40)
+            else
             {
                 Console.WriteLine("visiskai degina");
             }

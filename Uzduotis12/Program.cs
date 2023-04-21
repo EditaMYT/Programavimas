@@ -28,6 +28,10 @@ namespace Uzduotis12
             {
                 Console.WriteLine("Trecias skaicius yra didziausias");
             }
+            if (sk1 == sk2 && sk2 == sk3)
+            {
+                Console.WriteLine("Nenumatytas atvejis");
+            }
             Console.WriteLine();
 
             /*
@@ -49,10 +53,15 @@ namespace Uzduotis12
             {
                 Console.WriteLine("rezultatas yra [5 - 8)");
             }
-            else if (pazymys < 5) 
+            else if (pazymys < 5 && pazymys >= 0)
             {
-                Console.WriteLine("rezultatas yra <5");
+                Console.WriteLine("Neišlaikyta");
             }
+            else
+            {
+                Console.WriteLine("Netinkamai įvestas rezultatas");
+            }
+            Console.WriteLine();
             Console.WriteLine();
 
             /*

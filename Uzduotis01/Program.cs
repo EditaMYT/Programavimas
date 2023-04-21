@@ -21,7 +21,7 @@ namespace Uzduotis01
             Console.WriteLine(skaicius);
             Console.WriteLine();
 
-            Console.WriteLine($"{skaicius} {skaicius} {skaicius} {skaicius} {skaicius} {skaicius}");
+            Console.WriteLine($"{skaicius} {skaicius} {skaicius} {skaicius} {skaicius}");
             Console.WriteLine();
         }
     }

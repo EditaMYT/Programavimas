@@ -17,7 +17,7 @@ namespace Uzduotis05
             Console.WriteLine($"Suma: {pirmas} + {antras} = {pirmas + antras}");
             Console.WriteLine($"Skirtumas:{pirmas} - {antras} = {pirmas - antras}");
             Console.WriteLine($"Sandauga: {pirmas} * {antras} = {pirmas * antras}");
-            Console.WriteLine($"Dalmuo: {pirmas} / {antras} = {pirmas / antras}");
+            Console.WriteLine($"Dalmuo: {pirmas} / {antras} = {(double)pirmas / antras}");
             Console.WriteLine();
 
             //Isveskite i ekrana pasirinkta skaiciu, jo kvadrata ir ji pakelta treciuoju laipsniu.

@@ -11,14 +11,17 @@ namespace Uzduotis08
             */
 
             Console.WriteLine("Iveskite bet koki sveikaji skaciu:");
-            int skaicius1 = 1;
-            int skaicius2 = Convert.ToInt32(Console.ReadLine());
-            int daugyba = skaicius1 * skaicius2;
-            Console.WriteLine($"{skaicius2} * {skaicius1++} = {daugyba}");
-            Console.WriteLine($"{skaicius2} * {skaicius1++} = {daugyba}");
-            Console.WriteLine($"{skaicius2} * {skaicius1++} = {daugyba}");
-            Console.WriteLine($"{skaicius2} * {skaicius1++} = {daugyba}");
-            Console.WriteLine($"{skaicius2} * {skaicius1++} = {daugyba}");
+
+            string ivedimas = Console.ReadLine();
+            int skaicius = Convert.ToInt32(ivedimas);
+            int daugiklis = 1;
+
+            Console.WriteLine("Skaičiaus '{0}' daugybos lentelė:", skaicius);
+            Console.WriteLine($"{skaicius} * {daugiklis} = {skaicius * daugiklis++}");
+            Console.WriteLine($"{skaicius} * {daugiklis} = {skaicius * daugiklis++}");
+            Console.WriteLine($"{skaicius} * {daugiklis} = {skaicius * daugiklis++}");
+            Console.WriteLine($"{skaicius} * {daugiklis} = {skaicius * daugiklis++}");
+            Console.WriteLine($"{skaicius} * {daugiklis} = {skaicius * daugiklis++}");
             Console.WriteLine();
 
             /*Liepkite vartotojui ivesti tris skaicius. I ekrana isveskite siuos skaicius

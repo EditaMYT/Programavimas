@@ -34,6 +34,8 @@ namespace Uzduotis07
             Console.WriteLine($"{skaicius}{skaicius}{skaicius}{skaicius}{skaicius}");
             Console.WriteLine($"{skaicius}{skaicius}{skaicius}{skaicius}{skaicius}");
             Console.WriteLine($"{skaicius}{skaicius}{skaicius}{skaicius}{skaicius}");
+            Console.WriteLine($"{skaicius}{skaicius}{skaicius}{skaicius}{skaicius}");
+            Console.WriteLine($"{skaicius}{skaicius}{skaicius}{skaicius}{skaicius}");
             Console.WriteLine();
 
             /*
@@ -45,7 +47,7 @@ namespace Uzduotis07
             int skaitmuo1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Iveskite antra skaiciu:");
             int skaitmuo2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Iveskite antra skaiciu:");
+            Console.WriteLine("Iveskite trecia skaiciu:");
             int skaitmuo3 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Skaiciu suma: {skaitmuo1} + {skaitmuo2} + {skaitmuo3} = {skaitmuo1 + skaitmuo2 + skaitmuo3}");
             Console.WriteLine();
