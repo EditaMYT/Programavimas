@@ -6,6 +6,15 @@ namespace Uzduotis30
     {
         static void Main(string[] args)
         {
+            /*
+            Leiskite vartotojui įvesti du sveikuosius skaičius į programą. Sukurkite ir panaudokite
+            šiuos metodus:
+            Suma;
+            Skirtumas;
+            Sandauga;
+            Dalmuo;
+            */
+
             Console.WriteLine("Iveskite du skaicius:");
             int sk1 = Convert.ToInt32(Console.ReadLine());
             int sk2 = Convert.ToInt32(Console.ReadLine());

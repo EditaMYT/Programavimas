@@ -6,13 +6,22 @@ namespace Uzduotis29
     {
         static void Main(string[] args)
         {
+            /*
+            Parašykite metodą, kuris pasisveikintų su vartotoju.
+            Vartotojas turi įvesti savo vardą, amžių ir hobio pavadinimą.
+            Visi šie duomenys yra duodami metodui, kuris visą šią informaciją išveda
+            formatuotai
+            */
+
             Vardas();
             Amzius();
             HobioPavadinimas();
-            Pasisveikinimas();
             string vardas = Console.ReadLine();
             int amzius = Convert.ToInt32(Console.ReadLine());
             string hobis = Console.ReadLine();
+
+            Console.WriteLine($"Labas, {vardas} ({amzius}).");
+            Console.WriteLine($"Jusu irasytas hobis: {hobis}.");
         }
 
         private static void Vardas()
@@ -35,11 +44,5 @@ namespace Uzduotis29
             Console.ReadLine();
             Console.WriteLine();
         }
-
-        private static string Pasisveikinimas(string vardas, int amzius, string hobis)
-        {
-            Console.WriteLine($"Labas, {vardas} ({amzius}).");
-            Console.WriteLine($"Jusu irasytas hobis: {hobis}.");
-        }
-    }//Nerandu kaip parasyti paskutiniu eiluciu..
+    }
 }

@@ -6,6 +6,7 @@ namespace Uzduotis28
     {
         static void Main(string[] args)
         {
+            //Aprašykite ir iškvieskite metodą, kuris išvestų bet kokį jūsų pasirinktą tekstą.
             Pastebejimas();
         }
 
@@ -13,7 +14,6 @@ namespace Uzduotis28
         {
             Console.WriteLine("Atejo pavasaris, bet dar salta!");
             Console.WriteLine();
-        }
-        
+        }  
     }
 }
